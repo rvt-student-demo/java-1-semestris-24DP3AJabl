@@ -76,7 +76,7 @@ public class Chapter44 {
     public static void ex5() {
         Scanner scanner = new Scanner(System.in);
 
-        while (sc.hasNextLine()) {
+        while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
             if (line.startsWith("//"))
                 System.out.println(line);
